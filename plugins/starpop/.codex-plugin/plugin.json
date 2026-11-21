@@ -1,0 +1,41 @@
+{
+  "name": "starpop",
+  "version": "1.1.0",
+  "description": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills. Finished outputs are saved to ./starpop/<project>/.",
+  "author": {
+    "name": "Starpop",
+    "url": "https://starpop.ai"
+  },
+  "homepage": "https://starpop.ai/docs/integrations/mcp",
+  "repository": "https://github.com/starpopai/plugins",
+  "keywords": [
+    "ads",
+    "video",
+    "image",
+    "marketing",
+    "creative"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Starpop",
+    "shortDescription": "On-brand image, video, voiceover, and music ads",
+    "longDescription": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills. Finished outputs are saved to ./starpop/<project>/.",
+    "developerName": "Starpop",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://starpop.ai",
+    "privacyPolicyURL": "https://starpop.ai/privacy",
+    "termsOfServiceURL": "https://starpop.ai/terms",
+    "defaultPrompt": [
+      "Make an on-brand image ad for my product",
+      "Turn this product page into a short video ad",
+      "Write and voice a 15-second ad script"
+    ],
+    "brandColor": "#FE5443",
+    "logo": "./assets/logo.svg"
+  }
+}

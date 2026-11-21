@@ -1,0 +1,20 @@
+{
+  "name": "starpop",
+  "interface": {
+    "displayName": "Starpop"
+  },
+  "plugins": [
+    {
+      "name": "starpop",
+      "source": {
+        "source": "local",
+        "path": "./plugins/starpop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Save finished Starpop outputs to ./starpop/<project>/.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "^mcp__(plugin_starpop_)?starpop__(create_image|create_video|create_speech|create_music|create_sound_effect|upscale_video|get_job|wait_for_job|rerun_job|show_media_job|capture_frame|enhance_speech|isolate_voice|render_edit)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/save-starpop-outputs.mjs\"",
+            "timeout": 180
+          }
+        ]
+      }
+    ]
+  }
+}
