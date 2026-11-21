@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "starpop": {
+      "type": "http",
+      "url": "https://starpop.ai/api/mcp"
+    }
+  }
+}
