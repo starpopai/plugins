@@ -1,9 +1,9 @@
 {
   "name": "starpop",
-  "version": "1.1.0",
-  "description": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills. Finished outputs are saved to ./starpop/<project>/.",
+  "version": "1.2.0",
   "author": {
     "name": "Starpop",
+    "email": "support@starpop.ai",
     "url": "https://starpop.ai"
   },
   "homepage": "https://starpop.ai/docs/integrations/mcp",
@@ -14,5 +14,11 @@
     "image",
     "marketing",
     "creative"
-  ]
+  ],
+  "description": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills. Finished outputs are saved to ./starpop/<project>/.",
+  "icon": "./assets/logo.svg",
+  "documentationUrl": "https://starpop.ai/docs/integrations/mcp",
+  "supportUrl": "https://starpop.ai/docs/integrations/mcp#setup-help",
+  "privacyPolicyUrl": "https://starpop.ai/privacy",
+  "termsOfServiceUrl": "https://starpop.ai/terms"
 }

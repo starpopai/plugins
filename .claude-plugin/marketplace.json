@@ -1,17 +1,18 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "starpop",
-  "description": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills. Finished outputs are saved to ./starpop/<project>/.",
+  "description": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills.",
   "owner": {
     "name": "Starpop",
+    "email": "support@starpop.ai",
     "url": "https://starpop.ai"
   },
   "plugins": [
     {
       "name": "starpop",
-      "description": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills. Finished outputs are saved to ./starpop/<project>/.",
+      "description": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills.",
       "source": "./plugins/starpop",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "category": "productivity"
     }
   ]

@@ -1,9 +1,9 @@
 {
   "name": "starpop",
-  "version": "1.1.0",
-  "description": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills. Finished outputs are saved to ./starpop/<project>/.",
+  "version": "1.2.0",
   "author": {
     "name": "Starpop",
+    "email": "support@starpop.ai",
     "url": "https://starpop.ai"
   },
   "homepage": "https://starpop.ai/docs/integrations/mcp",
@@ -15,12 +15,13 @@
     "marketing",
     "creative"
   ],
+  "description": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills. Finished outputs are saved to ./starpop/<project>/.",
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Starpop",
-    "shortDescription": "On-brand image, video, voiceover, and music ads",
-    "longDescription": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills. Finished outputs are saved to ./starpop/<project>/.",
+    "shortDescription": "On-brand image and video ads",
+    "longDescription": "Starpop makes ads with your agent. Import a brand and its products from a website, search proven ads for ideas, then generate on-brand images, videos, voiceovers, and music, replicate a reference video's format, and edit the results into finished ads. Bundled skills carry Starpop's production rules and ad formats, such as podcast ads, explainers, and animated characters. For marketers, founders, and agencies who make paid-social and short-form video ads. Requires a Starpop account; it works with the brands, products, and media saved in that account's organizations.",
     "developerName": "Starpop",
     "category": "Productivity",
     "capabilities": [
@@ -28,6 +29,7 @@
       "Write"
     ],
     "websiteURL": "https://starpop.ai",
+    "supportURL": "https://starpop.ai/docs/integrations/mcp#setup-help",
     "privacyPolicyURL": "https://starpop.ai/privacy",
     "termsOfServiceURL": "https://starpop.ai/terms",
     "defaultPrompt": [
@@ -36,6 +38,7 @@
       "Write and voice a 15-second ad script"
     ],
     "brandColor": "#FE5443",
+    "composerIcon": "./assets/logo.svg",
     "logo": "./assets/logo.svg"
   }
 }
