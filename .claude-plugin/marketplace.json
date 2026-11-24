@@ -12,7 +12,7 @@
       "name": "starpop",
       "description": "Create ads with Starpop: brand and product context, image, video, speech, and music generation, reference-video replication, and Starpop's production skills.",
       "source": "./plugins/starpop",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "category": "productivity"
     }
   ]
