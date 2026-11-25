@@ -19,7 +19,7 @@ Spend most of your effort making the conversation sound real; the generation ste
 
 ## The model: MiniMax H3 Max
 
-MiniMax H3 Max (`minimax-h3-max`; recommendation `video.realisticSpeaker`). Preferred for realistic native speech on a designed start frame, long talking shots, and podcast performances. Alternatives: Gemini Omni Flash 1.2 (`gemini-omni-flash-1.2`): Cheap, fast native speech is preferred; describe the voice explicitly.
+MiniMax H3 Max (`minimax-h3-max`; recommendation `video.realisticSpeaker`). Preferred for realistic native audio on a designed start frame, long talking shots, and podcast performances. Alternatives: Gemini Omni Flash 1.2 (`gemini-omni-flash-1.2`): Cheap, fast native audio is preferred; describe the voice explicitly.
 
 The format uses MiniMax H3 Max for its speaker performances.
 
